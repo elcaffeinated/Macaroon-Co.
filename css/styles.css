@@ -1,0 +1,99 @@
+/*  
+    Fiona Eliah L. Uy
+    WD-201
+    November 29, 2025
+*/
+
+html, body {
+    font-family: roboto, sans-serif;
+    Background-color: #fff8f0;
+    color:brown;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+header {
+    background-color: #f4e1d2;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.navbar li a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: brown;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;  
+    font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #dfab01;
+  border-bottom: 2px solid #dfab01;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: brown;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul {
+    color: brown;
+    margin: 20px 0;
+    text-align: center;
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+.mainheader a{
+    text-align: center;
+    color: brown;
+    list-style: none;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 20px;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.h2, ul {
+    color: brown;
+    margin: 20px 0;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: #6d001a;
+    color: gold;
+    text-align: center;
+    padding: 20px 0; 
+    margin: 0;
+    font-size: 14px;
+}
